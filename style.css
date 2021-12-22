@@ -1,0 +1,19 @@
+:root {
+  --gap: 1rem;
+  --font: sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: black;
+}
+
+#container, #container > canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
